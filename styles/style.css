@@ -71,3 +71,8 @@ body {
 .course-content .price {
     color: #289BDE;
 }
+
+/* Articles */
+.content-wrapper {
+    background: #202224;
+}
