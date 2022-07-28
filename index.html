@@ -23,7 +23,7 @@
                     <a class="navbar-brand code-logo text-white fs-2 fw-bold" href="#">Code
                         <span>Lab</span></a>
                     <!-- Register Button For md -->
-                    <a href="#"
+                    <a href="#join"
                         class="d-lg-none d-md-block d-sm-none d-none btn code-register px-4 py-2 ms-auto fs-5">Register</a>
                     <button class="navbar-toggler ms-md-4 ms-sm-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -51,10 +51,10 @@
                                 <a class="nav-link px-lg-4 px-md-0" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-lg-4 px-md-0" href="#">Register</a>
+                                <a class="nav-link px-lg-4 px-md-0" href="#join">Register</a>
                             </li>
                         </ul>
-                        <a href="#"
+                        <a href="#join"
                             class="btn code-register px-4 py-2 d-lg-inline d-md-none d-sm-inline fs-5">Register</a>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
     <!-- Main Start -->
     <main>
         <!-- Course Section Start -->
-        <section class="container mb-5 pb-sm-5">
+        <section class="container mb-5 pb-sm-5 d-none">
             <!-- Course Intro -->
             <div class="course-intro text-center text-white mb-4">
                 <h2 class="code-h2 mb-3">Discover Our Popular <br> Courses</h2>
@@ -221,10 +221,154 @@
         <!-- Article End -->
 
         <!-- Join Section Start -->
-        <section class="join-registar">
+        <section class="join-register p-5 rounded-1 container my-5" id="join">
+            <div
+                class="row d-flex justify-content-center align-items-center text-lg-start text-md-center text-sm-center text-center">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-white">
+                    <h2>Ready to join?</h2>
+                    <p class="code-paragraph">It is a long established fact that a reader will be distracted by the <br>
+                        readable content of a
+                        page when looking at its layout.</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn join-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
 
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-dark">
+                                    <h5 class="modal-title text-white" id="exampleModalLabel">Complate The Form
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body bg-dark text-white">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="input" class="form-label">Name</label>
+                                            <input type="text" class="form-control" placeholder="Full Name">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4"
+                                                placeholder="jhankar@gmail.com">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4"
+                                                placeholder="123456789">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Address</label>
+                                            <input type="text" class="form-control" id="inputAddress"
+                                                placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress2" class="form-label">Address 2</label>
+                                            <input type="text" class="form-control" id="inputAddress2"
+                                                placeholder="Apartment, studio, or floor">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputCity" class="form-label">City</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputState" class="form-label">State</label>
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Choose..</option>
+                                                <option>Dhaka</option>
+                                                <option>Narayanganj</option>
+                                                <option>Chittagong</option>
+                                                <option>Cumilla</option>
+                                                <option>Sylhet</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputZip" class="form-label">Zip</label>
+                                            <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Check me out
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn join-button">Sign in</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer bg-dark text-white">
+                                    <button type="button" class="btn join-button" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn join-button">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Join Section End -->
+
+        <!-- Success Start -->
+        <section class="container pt-1 pb-5">
+            <!-- Success Tittle -->
+            <div class="success-tittle my-4 text-md-start text-sm-center text-center">
+                <h2 class="mb-4 text-white">Meet Our Successfull <br> Students</h2>
+                <p class="code-paragraph">It is a long established fact that a reader will be distracted by the <br>
+                    readable
+                    content of a page when looking at its layout.</p>
+            </div>
+            <div class="success-info text-white">
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 success-card shadow-lg">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Asib Iqbal</h5>
+                                <p class="card-text code-paragraph">Mern Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 success-card shadow-lg">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Tamanna</h5>
+                                <p class="card-text code-paragraph">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 success-card shadow-lg">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Tamim Iqbal</h5>
+                                <p class="card-text code-paragraph">Fron End Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 success-card shadow-lg">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Batasha</h5>
+                                <p class="card-text code-paragraph">Full Stack Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="success-button"></div>
+        </section>
+        <!-- Success End -->
     </main>
     <!-- Main End -->
 

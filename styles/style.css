@@ -76,3 +76,25 @@ body {
 .content-wrapper {
     background: #202224;
 }
+
+/* Join Now */
+.join-register {
+    background: #289BDE;
+}
+
+.join-button {
+    background: white;
+    color: #289BDE;
+    border: 1px solid white;
+}
+
+.join-button:hover {
+    background: #289BDE;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.success-card {
+    background: #202224;
+}
