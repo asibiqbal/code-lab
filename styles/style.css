@@ -111,3 +111,16 @@ body {
 #star {
     color: #cfcccc;
 }
+
+/* All Questions */
+
+
+#question-bg {
+    background-color: #202224;
+    color: white;
+    border: none;
+}
+
+#question-button {
+    background: #289BDE;
+}
