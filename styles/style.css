@@ -64,13 +64,6 @@ body {
 }
 
 /* Courses */
-.course-intro p {}
-
-
-
-.course-content .price {
-    color: #289BDE;
-}
 
 /* Articles */
 .content-wrapper {
@@ -123,4 +116,16 @@ body {
 
 #question-button {
     background: #289BDE;
+}
+
+/*----------- 
+    Footer
+---------- */
+footer {
+    background: #202224;
+}
+
+.social-icons i:hover {
+    color: #289BDE;
+    transition: 0.3s ease-in-out;
 }
