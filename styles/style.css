@@ -7,9 +7,20 @@ body {
     background: #282A2E;
 }
 
-.card-h2 {
-    font-size: 2.2rem;
-    font-weight: 600;
+.code-paragraph {
+    color: #cfcccc;
+}
+
+.code-button a {
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+.code-button:hover a {
+    background-color: white;
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    transition: 0.3s ease-in-out;
 }
 
 /*------------
@@ -23,6 +34,10 @@ body {
 }
 
 /* Nav */
+.code-nav a {
+    color: white;
+}
+
 .code-nav a:hover {
     color: #289BDE;
     transition: 0.3s ease-in-out;
@@ -43,15 +58,15 @@ body {
 /*-----------
     Main
 ----------- */
-
-/* Courses */
-.course-intro p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.875rem;
+/* Slider */
+.ovarley {
+    filter: brightness(50%);
 }
 
-.course-item {}
+/* Courses */
+.course-intro p {}
+
+
 
 .course-content .price {
     color: #289BDE;
