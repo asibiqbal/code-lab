@@ -4,6 +4,12 @@
 /* Typography */
 body {
     font-family: 'Poppins', sans-serif;
+    background: #282A2E;
+}
+
+.card-h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
 }
 
 /*------------
@@ -11,28 +17,18 @@ body {
 ------------ */
 
 /* Logo */
-.code-logo {
-    font-weight: 600;
-    font-size: 2rem;
-}
 
 .code-logo span {
     color: #289BDE;
 }
 
-.code-nav a {
-    font-weight: 400;
-    font-size: 1rem;
-    color: #777777;
-}
-
+/* Nav */
 .code-nav a:hover {
     color: #289BDE;
+    transition: 0.3s ease-in-out;
 }
 
 .code-register {
-    font-size: 1.25rem;
-    font-weight: 600;
     color: #289BDE;
     border: 1px solid #289BDE;
 }
@@ -40,5 +36,23 @@ body {
 .code-register:hover {
     color: white;
     background: #289BDE;
+    border: 1px solid #289BDE;
     transition: 0.3s ease-in-out;
+}
+
+/*-----------
+    Main
+----------- */
+
+/* Courses */
+.course-intro p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.course-item {}
+
+.course-content .price {
+    color: #289BDE;
 }
