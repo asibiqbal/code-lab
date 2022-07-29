@@ -59,11 +59,19 @@ body {
     Main
 ----------- */
 /* Slider */
-.ovarley {
+.overlay {
     filter: brightness(50%);
 }
 
+.carousel-caption {
+    top: 200px;
+}
+
 /* Courses */
+
+.price {
+    color: #289BDE;
+}
 
 /* Articles */
 .content-wrapper {
@@ -128,4 +136,26 @@ footer {
 .social-icons i:hover {
     color: #289BDE;
     transition: 0.3s ease-in-out;
+}
+
+/* responsive */
+@media only screen and (max-width: 575px) {
+    .carousel-caption {
+        top: -8px;
+    }
+
+    .responsive {
+        font-size: 1.2rem;
+    }
+
+    .responsive-1 {
+        font-size: 0.825rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .carousel-caption {
+        top: 37px;
+    }
 }
